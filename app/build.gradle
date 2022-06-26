@@ -3,7 +3,6 @@ plugins {
     id 'org.jetbrains.kotlin.android'
     id 'kotlin-kapt'
     id 'dagger.hilt.android.plugin'
-    id 'org.sonarqube' version '3.4.0.2513'
 }
 
 android {
@@ -39,14 +38,6 @@ android {
         unitTests {
             includeAndroidResources = true
         }
-    }
-}
-
-sonarqube {
-    properties {
-        property "sonar.projectKey", "searock_KeepMeUpdated"
-        property "sonar.organization", "searock"
-        property "sonar.host.url", "https://sonarcloud.io"
     }
 }
 
