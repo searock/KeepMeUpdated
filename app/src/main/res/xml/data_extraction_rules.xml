@@ -4,6 +4,7 @@
    for details.
 -->
 <data-extraction-rules>
+    <!-- TODO remove this -->
     <cloud-backup>
         <exclude domain="root" />
         <exclude domain="file" />
